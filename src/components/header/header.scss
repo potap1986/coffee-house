@@ -2,7 +2,10 @@
   background-color: #668E68;
   padding-top: 30px;
   padding-bottom: 30px;
-  display: flex;
+  
+  &__body {
+    display: flex;
+  }
 
   &__nav {
     list-style: none;

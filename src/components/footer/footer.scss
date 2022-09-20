@@ -3,8 +3,11 @@
   color: #ffffff;
   padding-top: 30px;
   padding-bottom: 30px;
-  display: flex; 
-  justify-content: space-between;
+  
+  &__body {
+    display: flex; 
+    justify-content: space-between;
+  }
 
   &__contacts {
     margin-right: auto;
