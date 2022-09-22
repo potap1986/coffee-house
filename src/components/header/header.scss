@@ -20,7 +20,9 @@
     flex: 1;
 
     li {
-      margin-right: 15px;
+      margin-right: 25px;
+      align-self: center;
+      cursor: pointer;
 
       &:first-of-type {
         margin-left: 40px;
@@ -28,6 +30,10 @@
 
       &:last-of-type {
         margin-left: auto;
+      }
+
+      &:hover, &:focus {
+        color: #D5713F;
       }
     }
   }

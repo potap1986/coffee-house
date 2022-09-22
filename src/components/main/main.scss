@@ -1,5 +1,8 @@
 .main {
-  background-color: #fff;
+  background-color: #eba03d;
+  position: relative;
+  color: white;
+  padding-bottom: 60px;
 
   &__title {
     min-height: 400px;
@@ -16,6 +19,66 @@
     color: #D5713F;
     text-shadow: 1px 1px 2px white, 0 0 1em white, 0 0 0.2em white;
   }
+
+  &__slide {
+
+    img {
+      height: 600px;
+      width: auto;
+    }
+  }
+
+  h2 {
+    font-size: 40px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  h3 {
+    padding: 0;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 25px;
+
+  }
+
+  ul {
+    padding: 0;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+  }
+
+  li {
+    flex-basis: 31%;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  &__button-menu {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    color: white;
+    padding: 13px 20px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 25px;
+    cursor: pointer;
+
+    &:hover, &:focus {
+      background-color: white;
+      color:#eba03d;
+    }
+  }
 }
 
 .snowflake {
@@ -24,7 +87,7 @@
   background: white;
   border-radius: 50%;
   position: absolute;
-  top: -5vh;
+  top: 0;
   left: var(--left);
   animation: snowfall var(--speed) linear infinite;
   animation-delay: var(--delay);
@@ -35,7 +98,7 @@
     transform: translate3d(var(--left-ini), 0, 0);
   }
   100% {
-    transform: translate3d(var(--left-end), 110vh, 0);
+    transform: translate3d(var(--left-end), 390px, 0);
   }
 }
 @for $i from 1 through 50 {

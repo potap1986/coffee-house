@@ -35,6 +35,12 @@
     li {
       margin-right: 15px;
 
+      a {
+        &:hover, &:focus {
+          opacity: .5;
+        }
+      }
+
     }
   }
 }
