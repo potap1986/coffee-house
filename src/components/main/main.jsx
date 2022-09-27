@@ -58,12 +58,12 @@ const Main = () => {
       <div className="main__body container">
         <div>
           <h2>Меню</h2>
-          {menu.map(item => 
-            <div>
+          {menu.map((item, number) => 
+            <div key={"menu" + number}>
               <h3>{item.name}</h3>
               <ul>
                 {(item.categories).map(position =>
-                  <li>{position}</li>
+                  <li key={"category" + number + position}>{position}</li>
                 )}
               </ul>
             </div>
