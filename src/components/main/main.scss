@@ -84,7 +84,10 @@
 .snowflake {
   width: var(--size);
   height: var(--size);
-  background: white;
+  background: transparent;
+  background-image: url("../../img/snow.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 50%;
   position: absolute;
   top: 0;
@@ -95,10 +98,10 @@
 
 @keyframes snowfall {
   0% {
-    transform: translate3d(var(--left-ini), 0, 0);
+    transform: translate3d(var(--left-ini), -10px, 0);
   }
   100% {
-    transform: translate3d(var(--left-end), 390px, 0);
+    transform: translate3d(var(--left-end), 370px, 0);
   }
 }
 @for $i from 1 through 50 {

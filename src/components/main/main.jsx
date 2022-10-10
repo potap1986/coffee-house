@@ -44,7 +44,7 @@ const Main = () => {
           "--left-ini": (random(20) - 10  + "vw"), 
           "--left-end": (random(20) - 10 + "vw"),
           "--speed": (5 + random(15) + "s"), 
-          "--size": (random(5) * 0.2 + "vw"), 
+          "--size": (random(20) * 0.2 + "vw"), 
           "--delay": ("-" + random(15) + "s"),
         }
                 
