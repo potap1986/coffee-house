@@ -57,7 +57,7 @@ const Main = () => {
       <h1 className="main__title">КРУАССАН</h1>
       <div className="main__body container">
         <div>
-          <h2>Меню</h2>
+          <h2 id="menu">Меню</h2>
           {menu.map((item, number) => 
             <div key={"menu" + number}>
               <h3>{item.name}</h3>

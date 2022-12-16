@@ -2780,8 +2780,8 @@ const Header = () => {
         </div>
         <ul className="header__nav">
           <li className="">Новинки</li>
-          <li className="">Меню</li>
-          <li className="">Контакты</li>
+          <li className=""><a href="#menu">Меню</a></li>
+          <li className=""><a href="#contact">Контакты</a></li>
         </ul>
       </div>
     </header>

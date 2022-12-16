@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer__body container">
         <div className="footer__logo"></div>
         <div className="footer__contacts">
-          <h2 className="footer__title">Контакты:</h2>
+          <h2 className="footer__title" id="contact">Контакты:</h2>
           <ul className="footer__nav">
             <li className="">Адрес: ул. Гагарина, 34, Рассказово, Тамбовская обл., 393250</li>
             <li className="">Режим работы: с 10 до 22, без выходных</li>

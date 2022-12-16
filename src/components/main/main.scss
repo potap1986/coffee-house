@@ -101,7 +101,7 @@
     transform: translate3d(var(--left-ini), -10px, 0);
   }
   100% {
-    transform: translate3d(var(--left-end), 370px, 0);
+    transform: translate3d(var(--left-end), calc(405px - var(--size)), 0);
   }
 }
 @for $i from 1 through 50 {
